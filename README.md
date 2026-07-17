@@ -80,4 +80,4 @@ draft GitHub Release. Review its generated assets and publish it when ready.
 
 ## License
 
-No license has been selected yet.
+OpenDirStat is released under the [WTFPL](LICENSE).
