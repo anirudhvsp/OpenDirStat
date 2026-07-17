@@ -58,18 +58,6 @@ cargo clippy --all-targets -- -D warnings
 cargo test
 ```
 
-## Creating a release
-
-Keep the versions in `package.json`, `src-tauri/Cargo.toml`, and
-`src-tauri/tauri.conf.json` aligned, then push a version tag:
-
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
-
-GitHub Actions builds the native bundles on each operating system and creates a
-draft GitHub Release. Review its generated assets and publish it when ready.
 
 ## Scan semantics
 
